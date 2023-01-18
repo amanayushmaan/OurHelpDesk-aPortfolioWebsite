@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 5px 5px;
+    border: 2px solid rgb(191, 197, 182);
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+    
+}
+.after_nav_intro{
+    background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?cs=srgb&dl=pexels-pixabay-531880.jpg&fm=jpg);
+    /* filter: blur(5px);
+  -webkit-filter: blur(5px); */
+    background-size: cover;
+    height: 100vh;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.navbar{
+    position:sticky;
+    top: 0;
+    width: 100%;
+    background-color: #85dbca;
+
+}
+#navbarCenteredExample a{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 35px 15px 35px;
+    font-size: 15px;
+
+    
+}
+
+.info_about_us{
+    margin-left:80px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    
+}
+.Profile_image{
+    padding-left: 80px;
+    /* margin-left:10px; */
+    margin-top: 180px;
+    margin-bottom: 80px;
+    
+}
+
+.info_about_us a{
+    background: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+    padding: 15px 15px;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+.info_about_us h4{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+
+}
+.info_about_us h1{
+    padding: 0px 0px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+
+}.info_about_us h3{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+
+}
+.info_about_us p{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 41px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.about_me{
+    margin-top:  170px;
+    
+}
+.heading h1{
+    
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+
+}
+
+.about_me_whole{
+    margin-top:  170px;
+    margin-bottom:  170px;
+}
+.data h4{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+}
+.data p{
+    color: gray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+   text-align: center;
+
+}
+
+.col-auto h1{
+    color: #85dbca;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+.col-auto h5{
+    color: grey;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+}
+.button_for_cv a{
+    
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+    padding: 17px 17px 17px 17px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+.progress_bar{
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.progress_report_heading h4{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+}
+.icons {
+    
+    width: 100%;
+    padding: 40px 40px;
+   
+}
+.icons_heading{
+    margin-bottom: 40px;
+}
+.icons_heading h1{
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.what_i_do {
+    margin-top:  70px;
+    margin-bottom:  70px;
+     
+}
+
+.what_i_do  h1{
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+
+.my_college{
+    margin-top:  70px;
+    margin-bottom:  70px;
+    
+    
+}
+/* .ggsipu {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+   
+} */
+.my_college col-5{
+    margin-right:20px ;
+}
+.my_college .col-5 p{
+
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+.my_college h1,h2{
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+   
+}
+
+.latest_work  h1{
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+.boxes_latest_work{
+    margin-top: 140px;
+    margin-bottom: 180px;
+}
+.boxes_latest_work a{
+    
+    text-decoration: none;
+
+    
+}
+.boxes_latest_work h5{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 20px;
+    
+    
+}
+.boxes_latest_work h4{
+    color: red;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;
+
+}
+.freelancer{
+    margin-top: 140px;
+    margin-bottom: 180px;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.freelancer .info h1{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.freelancer .info h4{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+.hire_me a{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+    padding: 17px 17px 17px 17px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+   
+}
+.Testimonials h1{
+    
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+}
+
+
+
+.contact_us{
+
+  margin-top: 140px;
+  margin-bottom: 180px;
+}
+.contact_col{
+    margin-bottom: 110px;
+}
+.contact_us h1{
+    
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-shadow: 2px 2px #41b3a3;
+    color: #85dbca;
+}
+
+.contact_col{
+    padding-left:40px;
+    padding-right: 40px;
+
+
+}
+.contact_col button{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    font-weight: bolder;
+    padding: 17px 17px 17px 17px;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
+#information h1{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+#information h5{
+    color: grey;
+    font-family: 'Oswald', sans-serif;
+}
+#footers{
+    margin-bottom: 10px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
+}
+
